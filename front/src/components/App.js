@@ -24,15 +24,15 @@ function App() {
       .catch((error) => console.log('Error fetching /api/test2:', error));
   }, []);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        /api/test =={'>'} {testStr}
-        <br />
-        /api/test2 =={'>'} {test2api}
-      </header>
-    </div>
-  );
+  // return (
+  //   <div className="App">
+  //     <header className="App-header">
+  //       /api/test =={'>'} {testStr}
+  //       <br />
+  //       /api/test2 =={'>'} {test2api}
+  //     </header>
+  //   </div>
+  // );
 
   return <BrowserRouter>
     <Routes>
